@@ -9,7 +9,7 @@ for /f "tokens=3-7" %%a in ('find /i "makecab"^<~.rpt') do (
 del ~.*
 popd
 echo %weekday% %current-date% %current-time%
-pause
+
 
 git add .
 git commit -m "%weekday% %current-date% %current-time%"
